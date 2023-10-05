@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.para1{
+    background-color: aquamarine;color:blue;
+    font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; padding:20px;
+  border: 2px solid slateblue;
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- inline css-->
+<div style="background-color: rgb(237, 162, 187); color: rgb(198, 10, 104); padding: 10px;
+border:2px solid black; margin-bottom: 20px; font-size: 15px;">
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+     Natus corrupti in beatae exercitationem dolorem praesentium ullam? Praesentium eligendi quos unde!</p>
+</div>
+         <div class="para1">
+                                     <!--internal css-->
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim veritatis saepe, 
+    qui consequuntur eveniet placeat nostrum totam quasi aliquam inventore quisquam fugit aut iusto,
+     tempore, ducimus illum provident? Ipsam, fugiat?
+
+                </p>
+
+        </div>
+
+<div class="para3">
+                    <!-- external css-->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente velit ducimus saepe eaque voluptate assumenda blanditiis molestias porro. Quas, modi?
+    </p>
+</div>
+
+<div >
+    <p  class="para3" class="para1" style="background-color: rgb(237, 162, 187); color: rgb(198, 10, 104); padding: 10px;border:2px solid black; margin-bottom: 20px; font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo possimus aliquid pariatur dicta iure fugit labore eveniet qui tempore ullam?
+<!--
+         inline>internal>external
+-->
+    </p>
+
+</div>
+
+
+</body>
+</html>
+
